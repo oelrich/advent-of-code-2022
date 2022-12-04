@@ -18,7 +18,7 @@
    (filter identity)
    count))
 
-(def part-a
+(def part-b
   (->>
    (slurp "dag_04.input")
    str/split-lines
