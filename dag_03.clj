@@ -1,5 +1,5 @@
 (require '[clojure.string :as str]
-         '[clojure.core.set :as set])
+         '[clojure.set :as set])
 
 (defn char-val [c]
   (let [v (inc (int c))]
